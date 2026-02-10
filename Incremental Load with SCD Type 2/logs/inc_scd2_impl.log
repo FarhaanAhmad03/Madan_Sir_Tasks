@@ -1,0 +1,82 @@
+2025-12-30 13:36:33,603 | INFO | Farhaan inc_scd2_impl started
+2025-12-30 13:36:33,604 | INFO | STEP 0: Database connection started
+2025-12-30 13:36:33,824 | INFO | package: mysql.connector.plugins
+2025-12-30 13:36:33,825 | INFO | plugin_name: caching_sha2_password
+2025-12-30 13:36:33,825 | INFO | AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 13:36:33,829 | INFO | STEP 0: Database connection successful
+2025-12-30 13:36:33,830 | INFO | STEP 1: Control table validation started
+2025-12-30 13:36:33,833 | INFO | STEP 1: Control table validation successful
+2025-12-30 13:36:33,835 | INFO | STEP 2: Truncate staging started
+2025-12-30 13:36:33,867 | INFO | STEP 2: Truncate staging completed successfully
+2025-12-30 13:36:33,867 | INFO | STEP 3: Delta load into staging started
+2025-12-30 13:36:33,873 | INFO | STEP 3: Delta load completed successfully | Rows = 1
+2025-12-30 13:36:33,873 | INFO | STEP 4: Expiring old dimension records started
+2025-12-30 13:36:33,877 | INFO | STEP 4: Expire completed | Rows affected = 1
+2025-12-30 13:36:33,878 | INFO | STEP 5: Insert new SCD2 versions started
+2025-12-30 13:36:33,882 | INFO | STEP 5: Insert new versions completed | Rows inserted = 1
+2025-12-30 13:36:33,882 | INFO | STEP 6: Insert new customers started
+2025-12-30 13:36:33,884 | INFO | STEP 6: Insert new customers completed | Rows inserted = 0
+2025-12-30 13:36:33,884 | INFO | STEP 7: Control table update started
+2025-12-30 13:36:33,889 | INFO | STEP 7: Control table updated successfully
+2025-12-30 13:36:33,890 | INFO | Farhaan inc_scd2_impl completed
+2025-12-30 13:56:03,686 | INFO | Farhaan inc_scd2_impl started
+2025-12-30 13:56:03,687 | INFO | STEP 0: Database connection started
+2025-12-30 13:56:03,947 | INFO | package: mysql.connector.plugins
+2025-12-30 13:56:03,948 | INFO | plugin_name: caching_sha2_password
+2025-12-30 13:56:03,949 | INFO | AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 13:56:03,954 | INFO | STEP 0: Database connection successful
+2025-12-30 13:56:03,954 | INFO | STEP 1: Control table validation started
+2025-12-30 13:56:03,959 | INFO | STEP 1: Control table validation successful
+2025-12-30 13:56:03,960 | INFO | STEP 2: Truncate staging started
+2025-12-30 13:56:04,011 | INFO | STEP 2: Truncate staging completed successfully
+2025-12-30 13:56:04,011 | INFO | STEP 3: Delta load into staging started
+2025-12-30 13:56:04,016 | INFO | STEP 3: Delta load completed successfully | Rows = 3
+2025-12-30 13:56:04,017 | INFO | STEP 4: Expiring old dimension records started
+2025-12-30 13:56:04,019 | INFO | STEP 4: Expire completed | Rows affected = 0
+2025-12-30 13:56:04,020 | INFO | STEP 5: Insert new SCD2 versions started
+2025-12-30 13:56:04,026 | INFO | STEP 5: Insert new versions completed | Rows inserted = 0
+2025-12-30 13:56:04,028 | INFO | STEP 6: Insert new customers started
+2025-12-30 13:56:04,033 | ERROR | Farhaan inc_scd2_impl FAILED: 1054 (42S22): Unknown column 'custome_name' in 'field list'
+2025-12-30 13:56:04,036 | INFO | Farhaan inc_scd2_impl completed
+2025-12-30 13:57:20,612 | INFO | Farhaan inc_scd2_impl started
+2025-12-30 13:57:20,613 | INFO | STEP 0: Database connection started
+2025-12-30 13:57:20,826 | INFO | package: mysql.connector.plugins
+2025-12-30 13:57:20,826 | INFO | plugin_name: caching_sha2_password
+2025-12-30 13:57:20,827 | INFO | AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 13:57:20,829 | INFO | STEP 0: Database connection successful
+2025-12-30 13:57:20,830 | INFO | STEP 1: Control table validation started
+2025-12-30 13:57:20,837 | INFO | STEP 1: Control table validation successful
+2025-12-30 13:57:20,837 | INFO | STEP 2: Truncate staging started
+2025-12-30 13:57:20,942 | INFO | STEP 2: Truncate staging completed successfully
+2025-12-30 13:57:20,942 | INFO | STEP 3: Delta load into staging started
+2025-12-30 13:57:20,948 | INFO | STEP 3: Delta load completed successfully | Rows = 3
+2025-12-30 13:57:20,948 | INFO | STEP 4: Expiring old dimension records started
+2025-12-30 13:57:20,952 | INFO | STEP 4: Expire completed | Rows affected = 0
+2025-12-30 13:57:20,952 | INFO | STEP 5: Insert new SCD2 versions started
+2025-12-30 13:57:20,957 | INFO | STEP 5: Insert new versions completed | Rows inserted = 0
+2025-12-30 13:57:20,957 | INFO | STEP 6: Insert new customers started
+2025-12-30 13:57:20,962 | INFO | STEP 6: Insert new customers completed | Rows inserted = 1
+2025-12-30 13:57:20,963 | INFO | STEP 7: Control table update started
+2025-12-30 13:57:20,969 | INFO | STEP 7: Control table updated successfully
+2025-12-30 13:57:20,970 | INFO | Farhaan inc_scd2_impl completed
+2025-12-30 13:59:19,095 | INFO | Farhaan inc_scd2_impl started
+2025-12-30 13:59:19,096 | INFO | STEP 0: Database connection started
+2025-12-30 13:59:19,255 | INFO | package: mysql.connector.plugins
+2025-12-30 13:59:19,256 | INFO | plugin_name: caching_sha2_password
+2025-12-30 13:59:19,256 | INFO | AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-30 13:59:19,259 | INFO | STEP 0: Database connection successful
+2025-12-30 13:59:19,259 | INFO | STEP 1: Control table validation started
+2025-12-30 13:59:19,274 | INFO | STEP 1: Control table validation successful
+2025-12-30 13:59:19,275 | INFO | STEP 2: Truncate staging started
+2025-12-30 13:59:19,318 | INFO | STEP 2: Truncate staging completed successfully
+2025-12-30 13:59:19,319 | INFO | STEP 3: Delta load into staging started
+2025-12-30 13:59:19,325 | INFO | STEP 3: Delta load completed successfully | Rows = 2
+2025-12-30 13:59:19,326 | INFO | STEP 4: Expiring old dimension records started
+2025-12-30 13:59:19,331 | INFO | STEP 4: Expire completed | Rows affected = 1
+2025-12-30 13:59:19,332 | INFO | STEP 5: Insert new SCD2 versions started
+2025-12-30 13:59:19,339 | INFO | STEP 5: Insert new versions completed | Rows inserted = 1
+2025-12-30 13:59:19,339 | INFO | STEP 6: Insert new customers started
+2025-12-30 13:59:19,344 | INFO | STEP 6: Insert new customers completed | Rows inserted = 1
+2025-12-30 13:59:19,345 | INFO | STEP 7: Control table update started
+2025-12-30 13:59:19,350 | INFO | STEP 7: Control table updated successfully
+2025-12-30 13:59:19,353 | INFO | Farhaan inc_scd2_impl completed
