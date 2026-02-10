@@ -1,0 +1,15 @@
+2025-12-30 12:13:31,686 - INFO - Farhaan_incrementalload_imp.py Started at 2025-12-30 12:13:31.686579
+2025-12-30 12:13:31,809 - INFO - Connected to MySQL successfully
+2025-12-30 12:13:31,809 - INFO - STEP 1: Started Truncating Stage
+2025-12-30 12:13:31,828 - INFO - Stage table truncated
+2025-12-30 12:13:31,828 - INFO - STEP 2: STARTED LOAD DELTA INTO STAGE
+2025-12-30 12:13:31,831 - INFO - Delta records loaded into stage
+2025-12-30 12:13:31,831 - INFO - STEP 3:STARTED UPDATE TARGET
+2025-12-30 12:13:31,834 - INFO - Target table updated with modified records
+2025-12-30 12:13:31,834 - INFO - STEP 4: STARTED INSERT NEW RECORDS
+2025-12-30 12:13:31,836 - INFO - New records inserted into target
+2025-12-30 12:13:31,836 - INFO - STEP 5 : STARTED UPDATE CONTROL TABLE
+2025-12-30 12:13:31,838 - INFO - Control table updated
+2025-12-30 12:13:31,839 - INFO - Incremental Load Job Completed Successfully
+2025-12-30 12:13:31,839 - INFO - Farhaan_incrementalload_imp.py ended at : 2025-12-30 12:13:31.839152
+2025-12-30 12:13:31,839 - INFO - Total Run Time (seconds): 0.152573
